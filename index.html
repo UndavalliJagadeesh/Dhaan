@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="styles.css" />
@@ -10,13 +11,14 @@
     <script type="text/javascript" src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Dhaan</title>
+    <link rel="icon" href="img/dhaan-logo.png" type="image/x-icon"> 
 </head>
 
 <body>
     <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="">Logo</a>
+          <a class="navbar-brand" href=""><img src="img/dhaan-logo.png" class="logo" alt="Logo" srcset=""></a>
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a class="nav-link" href="#mission">Mission</a>
@@ -55,7 +57,7 @@
         </div>
     </div>
 
-    <div id="services" class="container mt-5">
+    <div id="services" class=" mt-5">
         <h1 class="text-center titillium-web-semibold title">Services</h1><br>
         <div class="row">
             <div class="col-md-4 text-center">
@@ -75,6 +77,7 @@
             </div>
         </div>
     </div>
+    <div class="skew-cc"></div>
 
     <div id="stats" class="container mt-5">
         <h1 class="text-center titillium-web-semibold title">Stats</h1>
@@ -108,6 +111,36 @@
             <div class="col-md-6 mt-5">
                 <canvas id="transactionsPerMonthChart"></canvas>
             </div>
+        </div>
+    </div>
+
+    <div class="skew-c"></div>
+    <div id="about">
+        <h1 class="text-center titillium-web-semibold ">About</h1><br>
+        <div class="row align-picture">
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+                <p class="titillium-web-regular">
+                    This is an Idea that has been turned into a project. In the process of learning flask and REST APIs, 
+                    I have thought of developing an application on this idea using the technologies that I have learnt so far
+                    .....
+                </p>
+            </div>
+            <!-- <div class="col-1"></div> -->
+            <div class="col-md-5">
+                <img src="img/drop.gif" alt="Blood donation" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="text-center">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img src="img/dhaan-logo-white.png" class="logo">
+            </div>
+            <div class="col-md-4"><p class="titillium-web-semibold ">Social</p></div>
+            <!-- <div class="col-md-3">@Dhaan 2024</div> -->
+            <div class="col-md-4">Get in touch</div>
         </div>
     </div>
     
